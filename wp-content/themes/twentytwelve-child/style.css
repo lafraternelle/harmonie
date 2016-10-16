@@ -1,0 +1,44 @@
+/*
+ Theme Name:   Twenty Twelve Child
+ Theme URI:    http://www.harmonielafraternelle.fr/
+ Description:  Twenty Twelve Child Theme
+ Author:       Harmonie la Fraternelle
+ Author URI:   http://www.harmonielafraternelle.fr/
+ Template:     twentytwelve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-twelve-child
+*/
+
+/*#masthead {
+    background-color: #000;
+}*/
+
+.searchform input[type="text"] {
+    vertical-align: middle;
+}
+.searchform input[type="submit"] {
+    font-family: FontAwesome;
+    vertical-align: middle;
+}
+
+ul.ngg-breadcrumbs>li {
+    font-weight: bold;
+}
+
+.site-info {
+    text-align: center;
+}
+
+ul.list-inline {
+    padding-left: 0;
+    /*margin-left: -5px;*/
+    list-style: none;
+}
+ul.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
